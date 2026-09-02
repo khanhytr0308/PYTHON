@@ -11,5 +11,16 @@ data = {
 df = pd.DataFrame(data)
 # print(df.head(3))
 # print(df.tail(2))
-# print(df.info())
+print(df.info())
 print(df.describe())
+
+# have 5 rows
+# have 5 columns
+# row 3, 4, 5 are int
+# row 1, 2 are str
+
+# mean python is 7.857143 
+# mean SQL is 7.714286
+# max Python point is 10
+# min SQL is 6
+# in this class Python points are bester than SQL point
