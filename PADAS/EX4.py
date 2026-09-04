@@ -9,8 +9,6 @@ df = pd.DataFrame(data)
 
 
 
-print(df.tail(3))
-print(df.head(3))
-df.info()
-print(df.describe())
-print(df)
+print(df["Name"])
+print(df["POINT"])
+
