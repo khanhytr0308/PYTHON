@@ -8,5 +8,5 @@ scores = np.array([
     [7, 8, 9]
 ])
 
-print(np.mean(scores, axis =1))
-print(np.mean(scores, axis=0))
+print(np.mean(scores, axis =1)) #rows
+print(np.mean(scores, axis=0)) #colums
