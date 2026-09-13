@@ -9,4 +9,5 @@ data = {
 df = pd.DataFrame(data)
 
 print(df.isnull())
+#check null data
 print(df.isnull().sum())
