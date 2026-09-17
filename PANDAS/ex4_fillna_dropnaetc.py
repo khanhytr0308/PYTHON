@@ -19,6 +19,6 @@ df["Score"] = df["Score"].fillna(df["Score"].mean())
 # print(df.duplicated())
 print(df[df.duplicated()])
 
-df = df.drop_duplicates(subset = ["Name"])
+df = df.drop_duplicates()
 
 print(df)
