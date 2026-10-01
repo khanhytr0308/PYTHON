@@ -8,10 +8,11 @@ data = {
 
 df = pd.DataFrame(data) 
 
-df["Score"] = df["Score"].fillna(df["Score"].mean())
+# df["Score"] = df["Score"].fillna(df["Score"].mean())
 
 # df["Age"] = df["Age"].fillna(df["Age"]. mean())
 
 df = df.dropna(subset=["Age"])
+df = df.dropna(subset= ["Score"])
 
 print(df)
